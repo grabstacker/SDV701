@@ -53,4 +53,51 @@ An interface is a very abstract class and contains only abstract methods no code
 
 HOMEWORK - OO and refactoring with interfaces and inheritance
   " : " colon means inherite or implements
-## 
+## 04/03/2020 Class notes
+
+  try stay away from arrays and use dictionarys and lists instead as they are better for expansion.
+
+  Arrays are good for dealing with things that are fixed in size like days of the week.
+
+  composite is filled in sideways triangle
+
+  many students in many courses
+
+  DECOUPLING is the goal
+
+  Ownership is the key who owns what and why when refactoring code
+
+  Drawing diagrams in UML helps figure out the structure and dependancies
+
+  clsArtist needs its own methods to get and set etc the private fields
+
+Refactoring.com/catalog/
+
+setters and getters can be used to create good error catching for the input data
+
+get{}
+set{
+  if value != null <-- for example>
+
+}
+
+artistdialog should not be pointing to a frmClass
+
+
+ELSE{
+Throw new exception("use this instead of else in some error try catches");
+}
+
+avoiding using windows relient things like a messagebox inside business classes
+try keep it in the frmMain or any forms
+
+use code snippeets to encapsulate try catch on criticle code that should run with no errors
+
+
+try{
+
+}
+catch(Exception ex){
+  messagebox.show(ex.GetBaseException().Message)  <--- base exception
+
+}
