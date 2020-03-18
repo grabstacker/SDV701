@@ -282,3 +282,54 @@ VARIABLE COMPONENT ---> STABLE COMPONENT
       one to many dependancy so that when one object changes state it notifies many
 
       Multiple delegates
+
+## Week 5
+revision of the observer and subject pattern
+
+ANALYSIS pattern --> undoability ---> redoability
+
+
+---MOMENTO and Command design pattern---
+without voilating the encapsulation capture and externalise an object internal state so that the object can be restored to this state later.
+
+the undo ability is only uselful in most situations and not all
+
+Originator --> the orginal preserve
+
+Caretaker --> the trigger
+
+Memento --> remembers state
+
+the caretaker triggers the memento which comes from the orginator
+
+mementos are normal stored in memeory
+
+Using a stack like javascripts execution context stack
+
+breadcrumbs is a type of stack on the websites
+
+a stack is a built in data function
+
+recursion is subtasks that call each other in an endless loop
+
+memory is protected these days and limited to protect other processes from being effected.
+
+Stacks are built into most programming languages now but accessing the stack directly is stil possible
+
+When there is a problem in programming look at the design patterns to potentially solve the problem.
+
+Agnostic is not knowing if a interface is agnostic it does notknow what things it is being given
+
+---STRATEGY PATTERN---
+define a family of algorithms, encapsulate each one and make them intercahnablge. Strategy one lets them be intercahngable
+
+Open and Closed principle
+one of the dominant stratigies of OO is the open and close prinicple
+Open for extension but closed for modification
+
+The ten commandments of OO is a good resource
+
+PROGRAM TO AND INTERFACE NOT AN IMPLEMENTATION
+
+Practice test on moodle!!!!!!!!!!!!!!!!!!!!!
+
